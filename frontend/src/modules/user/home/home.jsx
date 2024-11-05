@@ -1,5 +1,5 @@
 import React from 'react';
-import './home.css';
+import './home.module.css';
 import '../cart/cart.module.css';
 
 const HomePage = () => {
@@ -41,7 +41,7 @@ const HomePage = () => {
                         <span><img src="../assets/icons/Vector.png" alt="" /></span>
                         <span className="badge">2</span>
                     </div>
-                    <a href="../cart/cart.html">
+                    <a href="../cart/cart.jsx">
                         <div className="icon cart">
                             <span><img src="../assets/icons/Cart1.png" alt="" /></span>
                             <span className="badge">4</span>
@@ -121,7 +121,7 @@ const HomePage = () => {
                                         Ajmal
                                     </label>
                                 </div>
-                                {/* Add more checkboxes here as needed */}
+                        
                             </div>
                         </div>
                     </div>
